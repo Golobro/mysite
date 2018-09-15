@@ -1,0 +1,16 @@
+{
+  "name": "deploy-githubpages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages --d dist"
+  },
+  "keywords": [],
+  "author": "Gologa Virobo",
+  "license": "ISC",
+  "homepage": "https://Golobro.github.io/mysite",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}

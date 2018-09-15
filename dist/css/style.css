@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+    https://source.unsplash.com/1920x1080/?abstract,background
+    https://images.unsplash.com/photo-1528459639788-428ce548b1fb
+*/
+
+body{
+    font-family: sans-serif;
+}
+
+/* home bg */
+#home{
+    background: url('https://images.unsplash.com/photo-1518014179319-21e9e8139b05') no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* about bg */
+#about{
+    background: url('https://images.unsplash.com/photo-1528459639788-428ce548b1fb') no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* home Wrapper */
+.wrap-home{
+    border: 1px solid #dfdfdf;
+    width: 250px;
+    box-shadow: 0 2px 8px #222222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* about Wrapper */
+.wrap-about{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap-about{
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 0 2px 8px #333333;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-shadow: 0 2px 8px #333333;
+}
+
+h4{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 4px #333333;
+}
+
+.text-wrap{
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+/* navBar */
+nav{
+    background: #3f3f3f;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background 0.2s ease;
+    font-weight: 800;
+}
+
+.active{
+    color: #be76e7;
+}
+
+a:hover{
+    background: #5a5a5a;
+}
